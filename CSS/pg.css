@@ -1,0 +1,236 @@
+ {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+
+  header {
+    background-color: #eceee8;
+    max-width: 1100px;
+    margin: 0 auto;
+
+  }
+  
+    
+  
+  h2 {
+    color: rgb(216, 75, 10);
+  }
+  title {
+    text-align: 100%;
+    font-size: 45%;
+    color: aquamarine;
+    margin-top: 100px;
+    font-weight: 100;
+  }
+  
+  
+  h1 {
+    background-color: rgb(209, 202, 226);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+   }
+  
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    /*justify-content: center; esto se aplica cuando utilizamos sistema flex*/ 
+    align-items: center;
+    background:#eceee8;
+    /*margin: 10px 50px 20px;
+    padding: 10px 50px 20px;*/
+  
+  }
+  
+  
+  .menu  li /*solo al hijos*/{
+    display: inline-block;
+  
+  }
+  .menu li  a{
+    display: block;
+    padding: 20px 35px;
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover{
+    color: rgb(0, 0, 0);
+    transition: all 1s; /*para que no sea tan rapido*/
+  }
+  
+  .submenu{
+    position: absolute;
+    background-color: aliceblue;
+    width: 130px;
+    display: none;
+  
+  
+  }
+  .submenu li a{
+    display: block;
+    padding: 5px;
+    color: rgb(231, 135, 24);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  
+  .menu li:hover .submenu{
+    display: block;
+  }
+  
+  
+  
+  /*punto punto*/
+  
+  .container {
+    
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-wrap: wrap; /*solo hijos*/
+    padding: 30px;
+   /*top: 120px;*/
+    
+  }
+  
+  .container .card {
+    
+    max-width: 300px;
+    height: 315px;
+    background-color: sandybrown;
+    margin: 20px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); /*sombra*/
+    border-radius: 15px;
+  }
+  
+  /* 1*/
+  
+  .container .card1 {
+    
+    max-width: 300px;
+    height: 400px;
+    background-color: sandybrown;
+    margin: 20px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); /*sombra*/
+    border-radius: 15px;
+  }
+  /* Llamar al div textocard1 */
+  
+  .container .card1 .textocard1 {
+    
+    margin: 0px;
+  }
+  
+  
+  
+  /*2*/
+  .container .card2 {
+    
+    max-width: 300px;
+    height: 400px;
+    background-color: sandybrown;
+    margin: 20px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); /*sombra*/
+    border-radius: 15px;
+  }
+  
+  
+  .container .card2 .textocard2 {
+    
+    margin: 0px;
+  }
+  
+  
+  
+  /*3*/
+  .container .card3 {
+    
+    max-width: 300px;
+    height: 400px;
+    background-color: sandybrown;
+    margin: 20px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); /*sombra*/
+    border-radius: 15px;
+  }
+  
+  
+  .container .card3 .textocard3 {
+    
+    margin: 0px;
+  }
+  
+  
+  
+  .container .card .content {
+   
+    margin-top: -120px;
+    padding: 10px 15px;
+    color: rgb(12, 1, 1);
+    display: block;
+    text-align: center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  } 
+  
+  
+  /* card:hover*/
+  .card1:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);    
+  }
+  
+  
+  
+  .card2:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);    
+  }
+  
+  
+  .card3:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);    
+  }   
+  
+  /*boton esto no va
+  button{
+      border: none;
+      background-color: $point;
+      width: 50%;
+      margin: 10px auto;
+      padding: 10px 30px;
+      color: white;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-transform: uppercase;
+    } */
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+  
+    footer {
+      background-color: #222;
+      padding: .5rem .8rem;
+    }
+    footer p {
+      color: rgba(255,255,255,9);
+      font-family: 'segoe ui';
+      text-align: center;
+    } 
